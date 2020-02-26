@@ -1,0 +1,8 @@
+u = 0
+aline  = int(input("How many aliens were originally on earth"))
+time  = int(input("How many weeks have the aliens been on earth?"))
+
+for u in range (time):
+  aline = 2 * aline
+
+print (aline)
